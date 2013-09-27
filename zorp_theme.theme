@@ -11,5 +11,19 @@ use Drupal\Core\Template\RenderWrapper;
  * Implements hook_preprocess_HOOK() for html.tpl.php.
  */
 function zorp_theme_preprocess_html(&$variables) {
+  //kpr($variables);
+}
 
+/**
+ * Implements hook_preprocess_HOOK() for page.html.twig.
+ */
+function zorp_theme_preprocess_page(&$variables) {
+  //kpr($variables);
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for node.html.twig.
+ */
+function zorp_theme_preprocess_node(&$variables) {
+  //kpr($variables);
 }
